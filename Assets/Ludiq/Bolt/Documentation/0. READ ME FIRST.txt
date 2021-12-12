@@ -1,22 +1,3 @@
-Welcome to Bolt!
-
-The Unity Asset Store policy requires that all 
-packages provide basic local documentation, 
-which is what you will find in the PDF files 
-in this directory.
-
-However, we strongly suggest using the online
-manual, which is more complete and always up-to-date.
-The PDF documentation is rarely updated.
-Also, the online documentation has animated gifs,
-which are converted to static images in PDFs.
-
-If you have questions, bug reports, or feature requests,
-you can submit them in the online Bolt community forum.
-
-Manual:
-https://docs.unity3d.com/Packages/com.unity.bolt@latest
-
-Now go create something awesome.
-
-Thanks for your purchase!
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d3298c563b203b149942c51ac884a4218a83cf1c6d67ac0b7bfb60c3c50a3be
+size 674

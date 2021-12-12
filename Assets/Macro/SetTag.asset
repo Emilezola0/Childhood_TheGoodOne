@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SetTag
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Child","label":null,"summary":null,"hideLabel":false},{"key":"Teenager","label":null,"summary":null,"hideLabel":false},{"key":"Baby","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":583.745,"y":171.9738},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{"key":{"$content":"Keypad2","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":470.0,"y":-2.0},"guid":"a24cb2d0-3725-4eb0-95b3-3d2c6c32a036","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"12"},{"coroutine":false,"defaultValues":{"key":{"$content":"Keypad3","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":477.0,"y":127.0},"guid":"574e7e1c-0fbb-4e49-8358-954f936357e3","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"14"},{"coroutine":false,"defaultValues":{"key":{"$content":"Keypad1","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":483.0,"y":243.0},"guid":"2b37e703-ca12-4d15-97b0-4db1daef0f73","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"16"},{"defaultValues":{},"position":{"x":841.0,"y":113.0},"guid":"9a4d6ca6-766c-44c9-92f9-b49188247909","$version":"A","$type":"Bolt.GraphOutput","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"Child","guid":"f3fe7f0e-afc9-4bc4-97e1-041cbcd52d64","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"Baby","guid":"59527e84-5224-46ca-ac18-a6fa8627e892","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"Teenager","guid":"f2ccad9c-8f41-4781-951b-2d8c07ce91d3","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
