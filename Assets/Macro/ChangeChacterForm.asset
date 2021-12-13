@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ChangeChacterForm
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":327.2881,"y":93.99527},"zoom":0.5999999,"elements":[{"type":"Ludiq.AotList","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"defaultValues":{},"position":{"x":-190.0,"y":-25.0},"guid":"0adf5d21-7c6a-4624-ad1c-5fbec23d2f17","$version":"A","$type":"Bolt.Literal","$id":"9"},{"defaultValues":{"firstIndex":{"$content":0,"$type":"System.Int32"},"lastIndex":{"$content":10,"$type":"System.Int32"},"step":{"$content":1,"$type":"System.Int32"}},"position":{"x":472.0,"y":172.0},"guid":"34d5453a-10d9-46de-9adc-dd52adc978fd","$version":"A","$type":"Bolt.For"},{"chainable":false,"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":308.0,"y":-69.0},"guid":"b3a4b1b9-091c-4f81-90a0-c99c6646455c","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":108.0,"y":19.0},"guid":"96cdc547-6684-46ff-924e-703969599096","$version":"A","$type":"Bolt.GetListItem","$id":"17"},{"defaultValues":{},"position":{"x":81.0,"y":133.0},"guid":"48e87201-6359-4604-b776-bd8a3021c69e","$version":"A","$type":"Bolt.GenericAdd","$id":"19"},{"type":"System.Single","value":{"$content":0.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-132.0,"y":188.0},"guid":"11db8ccf-f639-4f92-88ed-757f15b9a0db","$version":"A","$type":"Bolt.Literal","$id":"21"},{"coroutine":false,"defaultValues":{},"position":{"x":136.0,"y":-159.0},"guid":"af2c7728-45f7-4dc5-8cd0-1f55e1fa204e","$version":"A","$type":"Bolt.Update","$id":"23"},{"type":"System.Single","value":{"$content":1.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-37.0,"y":247.0},"guid":"ed16a79d-d038-4944-b29c-62ebd62a3415","$version":"A","$type":"Bolt.Literal","$id":"25"},{"sourceUnit":{"$ref":"23"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"e0392e5a-8bfd-42d8-8141-d3c39c008740","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"list","guid":"ef71be33-4f56-4311-9760-1bfda52ac6f3","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"sum","destinationUnit":{"$ref":"17"},"destinationKey":"index","guid":"8031808a-05f7-4181-9a48-f40dafc2069a","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"a","guid":"2255d3fc-66e4-486f-9b0d-0d0a9a8d0ac9","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"item","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"9843f873-d1e2-412c-9737-852cf6d55673","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"b","guid":"38bdfc77-a1f6-44c3-af15-11d0cd0e1cac","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5331160649191392912, guid: c1aa9794f17817c42a8ddc37374dcb1f, type: 3}
+    - {fileID: 4119386902584769993, guid: a41713329aa985146ac7abfa44834f21, type: 3}
+    - {fileID: 7743336877382149645, guid: 53b728920e68ff94d84ccfe7ae7135b1, type: 3}
