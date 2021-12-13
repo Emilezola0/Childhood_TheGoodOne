@@ -4040,11 +4040,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Child","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Baby","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Teenager","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 1283793242}
-    - {fileID: 1584675169}
-    - {fileID: 1591746412}
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!4 &198646531
 Transform:
   m_ObjectHideFlags: 0
