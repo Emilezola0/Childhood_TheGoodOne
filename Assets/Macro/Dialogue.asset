@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Dialogue
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[{"name":"PNJ1","value":null,"$version":"A"},{"name":"Dialogue","value":null,"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Dialogue","summary":null,"pan":{"x":-1957.919,"y":369.4464},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-2426.0,"y":145.0},"guid":"ad658656-cb8e-412f-9291-8bcc841f997d","$version":"A","$type":"Bolt.Update","$id":"11"},{"type":"Ludiq.AotList","value":{"$content":[{"$content":"Bonjour,
+      comment vas-tu ?","$type":"System.String"},{"$content":"Bien merci","$type":"System.String"},{"$content":"Apparement
+      il y aurai un ballon dans la f\u00f4ret","$type":"System.String"}],"$type":"Ludiq.AotList"},"defaultValues":{},"position":{"x":-2597.0,"y":368.0},"guid":"d88c543a-3f2a-4245-b246-5f89f5c97e49","$version":"A","$type":"Bolt.Literal","$id":"13"},{"kind":"Graph","defaultValues":{"name":{"$content":"PNJ1","$type":"System.String"}},"position":{"x":-1942.0,"y":174.0},"guid":"8a8fa4c6-c80c-470f-901f-ecccfc909d49","$version":"A","$type":"Bolt.SetVariable"},{"dictionary":false,"defaultValues":{},"position":{"x":-2248.0,"y":405.0},"guid":"de46e5fb-2dbc-4c6e-b203-386b13c0545e","$version":"A","$type":"Bolt.ForEach","$id":"18"},{"kind":"Graph","defaultValues":{"name":{"$content":"Dialogue","$type":"System.String"}},"position":{"x":-1929.0,"y":423.0},"guid":"a23b4dcb-fdda-47f0-9c03-b70c08779f2f","$version":"A","$type":"Bolt.SetVariable","$id":"20"},{"type":"System.Collections.IList","instance":true,"static":true,"defaultValues":{},"position":{"x":-2159.0,"y":262.0},"guid":"c1826e52-76b0-420f-830e-49b3bb332f5b","$version":"A","$type":"Bolt.Expose"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"b39b2725-2e30-4349-9a35-62dd8aee58a1","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"body","destinationUnit":{"$ref":"20"},"destinationKey":"assign","guid":"f69555fe-4240-48bf-8c0d-eb6e1b0b1f16","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"collection","guid":"1af81f96-5c39-4a65-a205-c57780b68476","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"currentItem","destinationUnit":{"$ref":"20"},"destinationKey":"input","guid":"50c2fe39-d154-4497-ab8a-7a3272bfb2c9","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
