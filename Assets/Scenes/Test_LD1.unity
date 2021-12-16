@@ -837,7 +837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8125556209517996696, guid: 4a53de3e92ed0db4d9b315b26143605f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"NewPosition","value":{"x":0.0,"y":1.0,"z":30.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"NewPosition","value":{"x":0.0,"y":1.0,"z":30.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"DoorOpenName","value":{"$content":"FirstDoor","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8125556209517996698, guid: 4a53de3e92ed0db4d9b315b26143605f, type: 3}
       propertyPath: m_RootOrder
@@ -1016,7 +1016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerTriggerDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"DoorOpen","value":{"$content":"FirstDoor","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerTriggerDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"DoorToOpen","value":{"$content":"FirstDoor","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!65 &1301084279
 BoxCollider:
