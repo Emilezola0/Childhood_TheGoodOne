@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"OnChild","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Child","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"OnChild","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Child","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Key1","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5331160649191392912}
 --- !u!114 &5331160649191392913
