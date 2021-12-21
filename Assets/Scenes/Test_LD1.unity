@@ -788,7 +788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8125556209517996696, guid: 4a53de3e92ed0db4d9b315b26143605f, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"NewPosition","value":{"x":0.0,"y":1.0,"z":30.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"NewPosition","value":{"x":0.0,"y":0.0,"z":30.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"The_Good_Door_Is_Open","value":{"$content":"FirstDoor","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 8125556209517996698, guid: 4a53de3e92ed0db4d9b315b26143605f, type: 3}
       propertyPath: m_RootOrder
@@ -913,6 +913,7 @@ GameObject:
   - component: {fileID: 1397981559}
   - component: {fileID: 1397981558}
   - component: {fileID: 1397981557}
+  - component: {fileID: 1397981561}
   m_Layer: 7
   m_Name: Plane
   m_TagString: Untagged
@@ -997,6 +998,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1397981561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397981556}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1466665395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2641903191923335326, guid: 320571e4e668a4e4ca794ec2aca64767, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"PlayerTriggerKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasKey","value":{"$content":"Key1","$type":"System.String"},"$version":"A"},{"name":"KeyName","value":{"$content":"Key1","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"PlayerTriggerKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasKey","value":{"$content":"Key1","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2911723554154388936, guid: 320571e4e668a4e4ca794ec2aca64767, type: 3}
       propertyPath: m_Name
