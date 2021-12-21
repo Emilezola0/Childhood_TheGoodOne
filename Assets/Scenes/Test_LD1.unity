@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5230017603916834033, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"NewPosition","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"PositionBefore","value":{"x":0.0,"y":1.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5230017603916834037, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
       propertyPath: m_Name
@@ -143,16 +143,28 @@ PrefabInstance:
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 45
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5230017603916834039, guid: 41fad84e34cd2d84db7df99716582890, type: 3}
       propertyPath: m_LocalRotation.w
@@ -607,8 +619,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DoorOpen","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerTriggerKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerTriggerDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DoorOpen","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerTriggerKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"PlayerTriggerDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"RefMecaniqueZAvant","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1901652777}
 --- !u!4 &572482428
 Transform:
   m_ObjectHideFlags: 0
@@ -1314,6 +1327,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1901652777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8125556209517996694, guid: 4a53de3e92ed0db4d9b315b26143605f, type: 3}
+  m_PrefabInstance: {fileID: 1253131982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2059609118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,7 +1422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059609118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.6, y: 2.07, z: 80.2}
+  m_LocalPosition: {x: -6.6, y: 8.34, z: 80.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
