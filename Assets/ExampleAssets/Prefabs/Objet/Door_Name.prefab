@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerTriggerDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"KeyForDoor","value":{"$content":"Name_Key_For_Door","$type":"System.String"},"$version":"A"},{"name":"DoorOpen","value":{"$content":"Name_Door","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PlayerTriggerDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"KeyForDoor","value":{"$content":"Key_Name","$type":"System.String"},"$version":"A"},{"name":"DoorOpen","value":{"$content":"Name_Door","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &3565181963156060327
 MonoBehaviour:

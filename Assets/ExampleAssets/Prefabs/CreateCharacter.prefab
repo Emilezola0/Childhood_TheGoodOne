@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"WaitAdo","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"WaitBebe","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"AB","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"BA","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"TimeSpentBaby","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeSpentTeenager","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &69235674621458359
 MonoBehaviour:
